@@ -1,0 +1,88 @@
+a {text-decoration: none;}
+body{
+    font-family: 'Reem Kufi Fun', sans-serif;
+    width:200px;
+    margin: auto;
+    
+}
+
+section:not(:last-child){
+margin-bottom: 20px;   
+}
+.name {
+    display: block;
+    padding-left: 20px;
+    
+}
+.name p{
+    font-size: 15px;
+}
+h1{
+ font-size: 30px;   
+}
+.main {
+    margin: 0 auto 0 auto;
+    background-image: linear-gradient(to bottom, rgb(237, 245, 245), rgb(10, 184, 228));
+}
+.main_info{
+display: block;
+width: 200px;
+margin: 10px 0 10px 0;
+}
+
+img {
+    margin-right: 10px;
+    width:200px;
+}
+
+.additional_info{
+    width: 200px;
+}
+
+.footer{
+    margin: 0 auto 10px auto;
+    width: 200px;
+    background-image: linear-gradient(to bottom, rgb(237, 245, 245), rgb(10, 184, 228));
+    border-top: solid 1px rgb(17, 16, 16);
+}
+
+
+@media screen and (min-width: 600px) {
+    body {
+        width: 650px;
+    }
+    img {
+        width: 200px;
+        margin-bottom: 20px;
+        box-shadow: 5px 5px 2px grey;
+    }
+    
+    .main_info{
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-right: 20px;
+    }
+    .additional_info{
+        width: 400px;
+    }
+    .main{
+        display: flex;
+        justify-content: space-around;
+        background-image: linear-gradient(to right, rgb(237, 245, 245), rgb(10, 184, 228));
+    }
+    .footer {
+        display: flex;
+        width: 650px;
+        flex-direction: column;
+        justify-content: center;
+        background-image: linear-gradient(to right, rgb(237, 245, 245), rgb(10, 184, 228));
+    }
+    .summary {
+        margin-top: 30px;
+        
+    }
+
+
+}
+
